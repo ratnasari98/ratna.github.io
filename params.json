@@ -1,0 +1,6 @@
+{
+  "name": "Ratna.GitHub.io",
+  "tagline": "nilai angka dan huruf",
+  "body": "<html>\r\n<head></head>\r\n   <SCRIPT language=\"JavaScript\">\r\nfunction test () {\r\nvar val1=document.kirim.T1.value\r\nif(val1>=0&&40)\r\n   document.kirim.T2.value=\"E\"\r\nif(val1>40&&55)\r\n   document.kirim.T2.value=\"D\"\r\nif(val1>55&&60)\r\n   document.kirim.T2.value=\"C\"\r\nif(val1>60&&65)\r\n   document.kirim.T2.value=\"BC\"\r\nif(val1>65&&70)\r\n   document.kirim.T2.value=\"B\"\r\nif(val1>70&&80)\r\n   document.kirim.T2.value=\"AB\"\r\nif(val1>80&&100)\r\n   document.kirim.T2.value=\"A\"\r\n}\r\n   </SCRIPT>\r\n<body>\r\n<form method=\"POST\" name=\"kirim\">\r\n<p>NILAI ANGKA <input type=\"text\" name=\"T1\" size=\"20\">\r\nNILAI HURUF <input type=\"text\" name=\"T2\" size=\"20\">\r\n</p>\r\n<p><input type=\"button\" value=\"TEBAK\" name=\"B1\" onclick=test()>\r\n</p>\r\n</form>\r\n</body>\r\n</html>",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
